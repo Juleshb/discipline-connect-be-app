@@ -1,0 +1,27 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "DC BACK-END WITH NODE AND MANGOES DB",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juleshb/discipline-connect-be-app.git"
+  },
+  "author": "Juleshb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juleshb/discipline-connect-be-app/issues"
+  },
+  "homepage": "https://github.com/Juleshb/discipline-connect-be-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
